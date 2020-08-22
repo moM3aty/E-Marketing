@@ -17,12 +17,12 @@ window.onscroll=()=>{
         document.getElementById("add").style.marginLeft="-10px";
         document.getElementById("add").style.fontFamily="Arial";
         document.getElementById("add").style.display="block";
-        sticky.addEventListener("show menu bar",sticky.style.animation="m3aty1 1s");
+        sticky.addEventListener(sticky.style.animation="menu_bar_sticky 1s");
     }else
     {
         document.getElementById("sticky").style.position="relative";
         document.getElementById("add").style.display="none";
-        sticky.addEventListener("hide menu bar",sticky.style.animation="none");
+        sticky.addEventListener(sticky.style.animation="none");
     }
 }
          
